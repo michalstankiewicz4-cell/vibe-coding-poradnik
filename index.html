@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vibe Coding — poradnik</title>
+  <meta name="description" content="Interaktywny poradnik vibecodingu dla osób, które nie umieją programować: opisujesz słowami, AI pisze kod, Ty widzisz efekt.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn toc-toggle" type="button" aria-label="Pokaż spis treści">☰</button>
+    <a class="brand" href="#/">✨ Vibe Coding <span>poradnik</span></a>
+    <button class="icon-btn theme-toggle" type="button" aria-label="Zmień motyw jasny/ciemny">🌓</button>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="Spis treści"></nav>
+    <div class="backdrop" aria-hidden="true"></div>
+    <main id="app"></main>
+  </div>
+
+  <script src="js/lessons/menu.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
